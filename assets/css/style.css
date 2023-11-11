@@ -1,0 +1,85 @@
+body
+{
+    margin: 0;
+}
+
+.navbar {
+    padding: 0px;
+}
+
+.custom-background
+{
+    background-color: #28A745;
+}
+
+footer{
+    margin:0;
+}
+
+p{
+    margin:0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+a{
+    margin:0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.p-encabezado{
+    /*line-height: 1.2; */ /*<---No se utiliza ya que usamos la propiedad de bootstrap: line height: lh-1*/
+    /*font-size: 20px;*/ /*<-- No se utiliza ya que usamos la propiedad de bootstrap Font size: fs-1 y fs-3 para mobile y desktop según corresponda*/
+    margin:0;
+    color:#212529;
+}
+
+.p-contenido{
+    /*font-size: 20px;*/ /*<-- No se utiliza ya que usamos la propiedad de bootstrap Font size: fs-4 y fs-5 para mobile y desktop según corresponda */
+   color: #707070;
+}
+
+.p-oferta
+{
+    color:#28A745;
+    font-weight:500 !important; /* <-- Utilizado para sobreescribir valor por defecto de bootstrap*/
+    
+}
+
+.hr{
+    color:#707070A0;
+}
+
+h1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+h2{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+h4{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+input{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300 !important; /* <-- Utilizado para sobreescribir valor por defecto de bootstrap*/
+    color: #707070;
+}
+
+button{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500 !important; /* <-- Utilizado para sobreescribir valor por defecto de bootstrap*/
+}
+
+.navbar-dark .navbar-toggler {
+    border-color:rgba(255, 255, 255, 0.665) !important; /* Se utiliza para reemplazar valor por defecto de bootstrap*/
+}
+
+.card-body{
+    border-color: #DDDDDD;
+}
